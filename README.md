@@ -8,14 +8,14 @@ When a class extends the GameController class, it will have access to all the ga
 The GameController subclasses can only call the engine (GameLogic) when a newGame is started (for now... saving to be introduced later), otherwise it will only call it through the parser; player commands.
 The GameDataModel essentially stores all the relevant data to the game, and can be only modifyed by the engine and accessed via the GameDataAccess class.
 
-Version: 2.0
-Player
-Areas
-A few commands
-Two rooms
-Some items placed
-Locked doors and keys (keys are not locked, duh, tho u can leave it in a room, leave and never be able to get back again. I have left this in, this happened to me too many times here in Denmark)
-GUI / CLI view, run Main to choose!
+[Version: 2.0]
+Player |
+Areas |
+A few commands |
+Two rooms |
+Some items placed |
+Locked doors and keys (keys are not locked, duh, tho u can leave it in a room, leave and never be able to get back again. I have left this in, this happened to me too many times here in Denmark) |
+GUI / CLI view, run Main to choose! |
 Right on GUI items for faster commands (e.g. go to room, take/drop items)
 
 ![arch](https://user-images.githubusercontent.com/90683098/140827720-78169582-2fee-4a8b-8fd6-87ebd11b3fa2.PNG)
