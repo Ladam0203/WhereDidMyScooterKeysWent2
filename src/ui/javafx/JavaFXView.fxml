@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="540.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.javafx.JavaFXController">
+   <children>
+      <ListView fx:id="lsvInventory" layoutX="14.0" layoutY="416.0" prefHeight="89.0" prefWidth="428.0" />
+      <ListView fx:id="lsvAreaItems" layoutX="14.0" layoutY="233.0" prefHeight="100.0" prefWidth="200.0" />
+      <Label fx:id="lblAreaName" layoutX="14.0" layoutY="25.0" prefHeight="18.0" prefWidth="200.0" text="Area:" textAlignment="CENTER" />
+      <Label layoutX="14.0" layoutY="215.0" text="Items:" />
+      <Label fx:id="lblInventory" layoutX="14.0" layoutY="397.0" text="Inventory:" />
+      <Label layoutX="228.0" layoutY="26.0" text="Console:" />
+      <TextField fx:id="txfInput" layoutX="14.0" layoutY="361.0" onKeyPressed="#enterInput" prefHeight="26.0" prefWidth="428.0" promptText="help" />
+      <Label layoutX="14.0" layoutY="343.0" text="Input:" />
+      <TextArea fx:id="txaConsole" layoutX="228.0" layoutY="50.0" prefHeight="283.0" prefWidth="212.0" wrapText="true" />
+      <ListView fx:id="lsvExits" layoutX="14.0" layoutY="124.0" prefHeight="90.0" prefWidth="200.0" />
+      <Label layoutX="14.0" layoutY="107.0" text="Exits:" />
+      <Label fx:id="lblDescription" alignment="TOP_LEFT" layoutX="13.0" layoutY="42.0" prefHeight="62.0" prefWidth="200.0" text="Description:" wrapText="true" />
+   </children>
+</AnchorPane>
