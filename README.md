@@ -7,3 +7,5 @@ The GameController subclasses can only call the engine when a newGame is started
 The GameDataModel essentially stores all the relevant data to the game, and can be only modifyed by the engine and accessed via the GameDataAccess class.
 
 Version: 2.0
+
+![arch](https://user-images.githubusercontent.com/90683098/140827720-78169582-2fee-4a8b-8fd6-87ebd11b3fa2.PNG)
