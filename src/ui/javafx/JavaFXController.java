@@ -80,7 +80,7 @@ public class JavaFXController extends GameController implements Initializable { 
     }
 
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize(URL location, ResourceBundle resources) { //TODO: cell factories needs refactoring, eleminate duplicate code
         lsvExits.setCellFactory(lv -> {
 
             ListCell<String> cell = new ListCell<>();
